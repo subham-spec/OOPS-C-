@@ -1,10 +1,8 @@
 #include <iostream>
 using namespace std;
-// Declairing a class
 class Person{
     string name;
     int age;
-    
     public:
         void getData(){
             cout<<"Name: \""<<name<<"\" and Age: "<<age<<endl;

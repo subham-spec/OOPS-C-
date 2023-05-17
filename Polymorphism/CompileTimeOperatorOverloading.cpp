@@ -4,10 +4,9 @@ class ComplexNumber {
     private:
         int real, img;
     public:
-        ComplexNumber(int real = 0, int img = 0){
-            this->real = real;
-            this->img = img;
-        }
+        ComplexNumber(int real = 0, int img = 0):
+            real(real),
+            img(img){}
         // Overloaded operator deafined here
         // This will be called automatically when ever we are gonna to add complexNumber objects
         ComplexNumber operator+(ComplexNumber const& obj){
